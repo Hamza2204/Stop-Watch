@@ -1,0 +1,42 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background: linear-gradient(to right, rgb(59, 67, 79), rgb(112, 88, 112));
+    color: #637467;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.stopwatch {
+    font-size: 15em;
+    font-family: monospace;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+#Cool-text {
+    font-size: 80px;
+    position: relative;
+    bottom: 100px;
+    color:rgb(37, 41, 49);
+    animation: coolText 5s infinite;
+}
+
+@keyframes coolText {
+    35% {
+        color:rgb(160, 96, 185);
+    }
+    70%{
+        color:rgb(61, 70, 60);
+    }
+}
